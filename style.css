@@ -2,14 +2,16 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: azure;
+    color: aliceblue;
+  
 }
 .main{
-    width: 60vw;
+    width: 50vw;
     height: 200vh;
-    border: 1px solid black;
+    border: 10px solid rgb(239, 231, 231);
     margin: 20px auto;
-    background-color: white;
+    background-color: #31314f;
+    border-radius: 10px;
 }
 
 header{
@@ -36,6 +38,7 @@ table td{
 hr{
     margin-left: 60px;
     margin-right: 60px;
+    border: 1px solid cadetblue  ;
 }
 
 .summary{
@@ -77,3 +80,20 @@ span{
 .list li{
     margin-top: 15px;
 }
+
+.summary h3{
+    margin-left: 60px;
+}
+
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+.ts{
+    margin-left: 60px;
+}
+
+.ts td{
+    padding: 15px;
+}
+
